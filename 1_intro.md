@@ -8,6 +8,8 @@ This is an interactive HTML version of the [**Course on logic and constraint log
 
 @image{https://github.com/mherme/ald-tests/edit/main/Figs/logic_use_1.png} 
 
+Edit
+
  - Conventional models of using computers -- not easy to determine
    correctness!
 
