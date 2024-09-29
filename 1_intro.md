@@ -6,7 +6,7 @@ This is an interactive HTML version of the [**Course on logic and constraint log
 
 # The Program Correctness Problem
 
-@image{https://github.com/mherme/ald-tests/edit/main/Figs/logic_use_1} 
+@image{https://github.com/mherme/ald-tests/edit/main/Figs/logic_use_1.png} 
 
  - Conventional models of using computers -- not easy to determine
    correctness!
