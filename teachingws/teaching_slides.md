@@ -110,13 +110,13 @@ programming**](http://www.cliplab.org/logalg/) for more details.
 
 - A new view of computing:
 
-@p @image{Figs/green_lcolor-full}
+@p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/green_lcolor-full}
 
 # A good start: explaining Green's proposal (II)
 
 - Prolog is the materialization of this dream::
 
-@p @image{Figs/green_lcolor-prolog}
+@p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/green_lcolor-prolog}
 
   Robinson + Colmerauer + Kowalski / Kuhnen's SL-Resolution over Horn clauses 
 
@@ -176,7 +176,7 @@ All is good!
 
 - Some fun examples - circuit topology.
 
-@p @image{Figs/logic_circuit_color_small}
+@p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/logic_circuit_color_small}
 
 
 ```ciao_runnable
@@ -725,14 +725,14 @@ colorlist := [] | [~color|~colorlist].
 
 # Characterization of the search tree
 
-@p @image{Figs/search_cases_small}
+@p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/search_cases_small}
 
 - All solutions are at *finite depth* in the tree.
 - Failures can be at finite depth or, in some cases, be an infinite branch.
 
 # Depth-First Search
 
-@p @image{Figs/search_cases_df_small}
+@p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/search_cases_df_small}
 
 - Incomplete: may fall through an infinite branch before finding all solutions.
 - But very efficient: it can be implemented with a call stack, very similar to a traditional programming language.
@@ -741,7 +741,7 @@ colorlist := [] | [~color|~colorlist].
 
 # Breadth-First Search
 
-@p @image{Figs/search_cases_bf_small} 
+@p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/search_cases_bf_small} 
 
 - Will find all solutions before falling through an infinite branch.
 - But costly in terms of time and memory.
@@ -867,7 +867,7 @@ nums_list(X,N,[X|T]) :-
 
 # Depth-first / Breadth-first / Iterative Deepening
 
-@p @image{Figs/data-id-1500-1500-10000-to-include}
+@p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/data-id-1500-1500-10000-to-include}
 
 - Just the Ciao naive implementations: no claim of optimality!
 - Only one program, no claim of generality!
@@ -968,7 +968,7 @@ async (pg) => {
 
 
 - Recognizing the sequence of characters accepted by the following *non-deterministic, finite automaton* (NDFA):
-  @p @image{Figs/autom1_color}
+  @p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/autom1_color}
   where **q0** is both the *initial* and the *final* state.
 
 
@@ -1020,7 +1020,7 @@ async (pg) => {
   - Only one disk can be moved at a time.
   - A larger disk can never be placed on top of a smaller disk.
 
-  @p @image{Figs/hanoi}{1000}{325}
+  @p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/hanoi}{1000}{325}
 
 # Recursive Programming: Towers of Hanoi (Contd.)
 
@@ -1032,7 +1032,7 @@ async (pg) => {
 - Each move `move(A, B)` represents that the top disk in A should be moved to B.
 
 - *Example:*
-  @p @image{Figs/hanoi3}{1000}{115}
+  @p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/hanoi3}{1000}{115}
 
   @p is represented by: 
   ```ciao
@@ -1044,7 +1044,7 @@ async (pg) => {
 # Recursive Programming: Towers of Hanoi (Contd.)
 
 - A general rule:
-  @p @image{Figs/hanoi_gen}{1000}{65}
+  @p @image{https://github.com/mherme/ald-tests/edit/main/teachingws/Figs/hanoi_gen}{1000}{65}
 
 - We capture this in a predicate `hanoi(N,Orig,Dest,Help,Moves)` where
   @p ''`Moves` contains the moves needed to move a tower of `N`disks from peg `Orig` to peg `Dest`, with the help of peg `Help`.''
