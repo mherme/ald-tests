@@ -8,7 +8,7 @@ This is an interactive HTML version of the [**Course on logic and constraint log
 
 THIS IS A TEST
 
-@image{https://github.com/mherme/ald-tests/edit/main/Figs/logic_use_1.png}
+@image{https://github.com/mherme/ald-tests/edit/main/logalg/Figs/logic_use_1.png}
 
 THIS IS A TEST 
 
